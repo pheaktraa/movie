@@ -42,17 +42,17 @@ const App = () => {
             See Full Screen
           </button>
 
-          <a 
+          <a
             href={fullscreenUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 hover:text-blue-800 transition-colors"
+            className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
           >
-            {/* Open in Google Drive */}
-          </a>
-        </div>
+            Open in Google Drive (New Tab)
+        </a>
       </div>
     </div>
+    </div >
   );
 }
 
